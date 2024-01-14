@@ -1,0 +1,148 @@
+.main-page {
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  box-sizing: border-box;
+}
+button{
+  background-color: transparent;
+  border-radius: 2px;
+  border: none;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  line-height: 0;
+  padding: 7px 23px 8px 23px;
+  text-align: right;
+}
+button:hover{
+  opacity: 0.5;
+  transition: all 0.5s ease-out allow-discrete;
+}
+button:active{
+  border: 1.5px solid cyan;
+  opacity: 0.5;
+}
+/* main-header */
+.main-header {
+  height: 550px;
+  background-image: url(https://s3-media3.fl.yelpcdn.com/assets/srv0/yelp_large_assets/65e6a224ada4/assets/img/home/hero_photos/cz8iYo13MpBBGlFLlkA8Sw.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.main-header-wrap {
+  position: relative;
+  width: 960px;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+}
+.nav-wrapper {
+  margin-bottom: 94px;
+}
+.main-nav {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  line-height: 0;
+}
+.main-nav .main-list {
+  margin: 0;
+  padding: 0;
+}
+.main-nav li {
+  display: inline;
+  padding-right: 5px;
+  font-weight: bold;
+}
+.main-nav .main-list__link:link {
+  font-size: 1rem;
+  line-height: 0.9rem;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 11px 9px 11px;
+}
+.logon-box {
+  position: absolute;
+  top: 38px;
+  right: 0;
+  padding: 0;
+}
+
+.logon-box .logon-list {
+  margin: 0;
+  padding: 0;
+}
+
+.logon-box .logon-list__item {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 0.9rem;
+  padding: 0;
+  margin: 0;
+}
+
+.logon-box .logon-list__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logon-list__link.Login {
+  padding: 7px 23px 8px 23px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.logon-list__link.Login:hover {
+  opacity: 0.5;
+  color: white;
+  transition: all 0.2s ease-out allow-discrete;
+}
+.logon-list__link.Login:active{
+  border: 1.5px solid cyan;
+  transition: all 0.1s ease-out allow-discrete;
+}
+.logon-list__link.SignUp {
+  padding: 7px 23px 8px 23px;
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: red;
+}
+
+.logon-list__link.SignUp:hover {
+  opacity: 0.6;
+  background: red;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.5s ease-out allow-discrete;
+}
+.logon-list__link.SignUp:active{
+  opacity: 0.6;
+  transition: all 0.5s ease-out allow-discrete;
+  border: 1.5px solid cyan;
+}
+.main-logo {
+  margin: 0;
+  padding-left: 2px;
+  padding: 0;
+  font-size: 0;
+  text-align: start;
+  margin-bottom: 23px;
+}
+/*************** Search-Box start here ************/
+.Search-bar .search-button{
+  display: grid;
+  margin-top: 10px;
+}
+.search-button{
+  background-color: red;
+  padding: 20px 20px 16px 16px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+.search-bar{
+  margin-right: 1px solid grey;
+  padding: 20px 20px 20px 20px;
+  border: 0.5px solid grey;
+  margin: 0;
+}

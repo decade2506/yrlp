@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      NOICE
+    </title>
+    <link rel="stylesheet" href="H1.css">
+    <link rel="stylesheet" href="F1.css">
+    <link rel="stylesheet" href="F2.css">
+    <link rel="stylesheet" href="Ft1.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header-wrap">
+        <div>
+          <input class="search-bar" type="text" placeholder="Things to do" value="" list="t">
+          <datalist id="t">
+            <option value="1"></option>
+            <option value="2"></option>
+          </datalist>
+          </datalist>
+          <input class="search-bar" type="text" placeholder="Location" value="San Francisco, CA" list="l">
+          <datalist id="l">
+            <option value="1"></option>
+            <option value="2"></option>
+          </datalist>
+          <a href="#" class="search-button"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
+        </div>
+        <div >
+        <div class="nav-wrapper">
+          <nav class="main-nav">
+            <ul class="main-list">
+              <li><button><a href="javascript:void(0)" class="main-list__link">Yelp for busines</a></button></li>
+              <li><button><a href="javascript:void(0)" class="main-list__link">Write a Review</a></button></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="logon-box">
+          <ul class="logon-list">
+            <li class="logon-list__item"><a href="#" class="logon-list__link Login">Log In</a></li>
+            <li class="logon-list__item"><a href="#" class="logon-list__link SignUp">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div>
+      <h1>Recent Activity</h1>
+      <div class="yelp-grid">
+        <div class="feed" style="padding: 15px 10px 10px 15px;">
+          <div class="feed-info-grid">
+            <div>
+              <img class="profile-pic" src="https://s3-media0.fl.yelpcdn.com/photo/jF96duHuLU8zKAJ9aR2pzw/ss.jpg" alt="profile pic">
+            </div>
+            <div>
+              <p class="yelp-name"> 
+                <b>Vi T</b><br>Added 3 photos
+              </p>
+            </div>
+          </div>
+          <div>
+            <a href="#">Roll & Bowl</a>
+          </div>
+          <div class="feed-pic-grid">
+            <div class="feed-pic">
+              <img height="168px" width="168px" src="https://s3-media0.fl.yelpcdn.com/bphoto/Y2SnKxuwXeMFPUf6u4g_EA/300s.jpg" alt="food">
+              <div><a href="#">&#128077;</a></div>
+            </div>
+            <div class="feed-pic">
+              <img  src="https://s3-media0.fl.yelpcdn.com/bphoto/jGvcdBC-_arUiBt9ncjVYg/168s.jpg" alt="food">
+              <div><a href="#">&#128077;</a></div>
+            </div>
+          </div>
+          <div style="padding-bottom: 15px; padding-top: 15px;">
+            <a href="#">Show all 3 photos</a>
+          </div>
+        </div>
+        <div class="feed">
+          <div class="feed-info-grid">
+            <div style="padding: 15px 10px 10px 15px;">
+              <img class="profile-pic" src="https://s3-media0.fl.yelpcdn.com/photo/AtyGiE2AhHtmgM87NwT1sw/ss.jpg" alt="profile pic">
+            </div>
+            <div>
+              <p class="yelp-name" style="padding: 15px 10px 10px 15px;"> 
+                <b>Sue Y</b><br>Wrote a review
+              </p>
+            </div>
+          </div>
+          <div>
+            <img height="86px" width="454px" src="imgs/Annotation 2024-01-14 204934.jpg" alt="review">
+          </div>
+          <div style="padding: 15px 10px 10px 15px;">
+            <a href="#">Fog Harbor Fish House</a>
+          </div>
+            <div style="padding: 15px 10px 10px 15px;" class=" css-i4guvk">
+              <span class=" css-1d8srnw">
+              <div class="css-14g69b3" role="img" aria-label="4 star rating">
+                <div class="css-1ljpb85"><svg width="20" height="20" viewBox="0 0 20 20">
+                  <path fill="rgba(255,100,61,1)" opacity="1" d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z"></path><path fill="rgba(255,100,61,1)" opacity="1" d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z"></path>
+                  <path fill="white" fill-rule="evenodd" clip-rule="evenodd" d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z"></path></svg>
+                </div>
+                <div class="css-1ljpb85"><svg width="20" height="20" viewBox="0 0 20 20">
+                  <path fill="rgba(255,100,61,1)" opacity="1" d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z"></path>
+                  <path fill="rgba(255,100,61,1)" opacity="1" d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z"></path>
+                  <path fill="white" fill-rule="evenodd" clip-rule="evenodd" d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z"></path></svg>
+                </div>
+                <div class="css-1ljpb85"><svg width="20" height="20" viewBox="0 0 20 20">
+                  <path fill="rgba(255,100,61,1)" opacity="1" d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z"></path>
+                  <path fill="rgba(255,100,61,1)" opacity="1" d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z"></path>
+                  <path fill="white" fill-rule="evenodd" clip-rule="evenodd" d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z"></path></svg>
+                </div>
+                <div class="css-1ljpb85"><svg width="20" height="20" viewBox="0 0 20 20">
+                  <path fill="rgba(255,100,61,1)" opacity="1" d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z"></path>
+                  <path fill="rgba(255,100,61,1)" opacity="1" d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z"></path><path fill="white" fill-rule="evenodd" clip-rule="evenodd" d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z"></path></svg>
+                </div>
+                <div class="css-tgzc6n"><svg width="20" height="20" viewBox="0 0 20 20">
+                  <path fill="#BBBAC0" opacity="0.5" d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z"></path>
+                  <path fill="#BBBAC0" opacity="0.5" d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z"></path>
+                  <path fill="white" fill-rule="evenodd" clip-rule="evenodd" d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z"></path></svg>
+                </div>
+              </div>
+            </span>
+          </div>
+          <div style="padding: 15px 10px 10px 15px;">
+            <p>Ok food. Risotto was mushy and premade. Came lukewarm, sent back, re delivered not much better.</p>
+          </div>
+          <hr>
+          <div style="padding: 15px 10px 10px 15px;">
+            <div style="text-align: center; margin: 15px;" class="tooltip">
+              <a href="#"><span class="tooltiptext">useful</span>&#128161;</a>
+            </div>
+            <div style="text-align: center; margin: 15px;" class="tooltip">
+              <a href="#"><span class="tooltiptext">funny</span>&#128512;</a>
+            </div>
+            <div style="text-align: center; margin: 15px;" class="tooltip">
+              <a href="#"><span class="tooltiptext">cool</span>&#128526;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="main-content">
+        <section class="category-businesses">
+          <div class="category-wrapper">
+            <div class="category-heading-wrapper">
+              <h2><b>Categories</b></h2>
+            </div>
+            <div class="category-businesses__row">
+              <a href="#" class="category-businesses__col">
+                <img class="" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/8bc05b287157/assets/img/svg_illustrations/40x40_food_v2.svg">
+                <span class="category-businesses__label">Restaurants</span>
+              </a>
+              <a href="#" class="category-businesses__col">
+                <img class="" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/488aeb87ef6e/assets/img/svg_illustrations/40x40_gift_shops_v2.svg">
+                <span class="category-businesses__label">Shoping</span>
+              </a>
+              <a href="#" class="category-businesses__col">
+                <img class="" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/1397897c21a5/assets/img/svg_illustrations/40x40_new_v2.svg">
+                <span class="category-businesses__label">Nightlife</span>
+              </a>
+              <a href="#" class="category-businesses__col">
+                <img class="" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/0372f8e93aa9/assets/img/svg_illustrations/40x40_set_objective_v2.svg">
+                <span class="category-businesses__label">Active Life</span>
+              </a>
+            </div>
+            <div class="category-businesses__row">
+              <a href="#" class="category-businesses__col">
+                <img class="" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/5bd5d2648742/assets/img/svg_illustrations/40x40_barbers_v2.svg">
+                <span class="category-businesses__label">Beauty & Spa</span>
+              </a>
+              <a href="#" class="category-businesses__col">
+                <img class="" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/5967f38fe621/assets/img/svg_illustrations/40x40_auto_v2.svg">
+                <span class="category-businesses__label">Automotive</span>
+              </a>
+              <a href="#" class="category-businesses__col">
+                <img class="" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/7fc312973cf8/assets/img/svg_illustrations/40x40_home_services_v2.svg">
+                <span class="category-businesses__label">Home Services</span>
+              </a>
+              <a href="#" class="category-businesses__col">
+                <img class="" src="https://s3-media0.fl.yelpcdn.com/assets/public/40x40_more_v2.yji-961fdce2fd036f85fb01.svg">
+                <span class="category-businesses__label">More categories</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer class="main-footer">
+      <section class="main-footer__wrapper">
+        <div class="main-footer__col about">
+          <span class="main-footer__heading">About</span>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="#">About Yelp</a></li>
+            <li class="footer-list-item"><a href="#">Order Food on Eat24</a></li>
+            <li class="footer-list-item"><a href="#">Careers</a></li>
+            <li class="footer-list-item"><a href="#">Press</a></li>
+            <li class="footer-list-item"><a href="#">Investor Relations</a></li>
+            <li class="footer-list-item"><a href="#">Content Guidelines</a></li>
+            <li class="footer-list-item"><a href="#">Terms of Service</a></li>
+            <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
+            <li class="footer-list-item"><a href="#">Ad Choices</a></li>
+          </ul>
+        </div>
+        <div class="main-footer__col discover">
+          <span class="main-footer__heading">Discover</span>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="#">The Local Yelp</a></li>
+            <li class="footer-list-item"><a href="#">Yelp Blog</a></li>
+            <li class="footer-list-item"><a href="#">Support</a></li>
+            <li class="footer-list-item"><a href="#">Yelp Mobile</a></li>
+            <li class="footer-list-item"><a href="#">Developers</a></li>
+            <li class="footer-list-item"><a href="#">RSS</a></li>
+          </ul>
+        </div>
+        <div class="main-footer__col business-owners">
+          <span class="main-footer__heading">Yelp for Business Owners</span>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="#">Claim your Business Page</a></li>
+            <li class="footer-list-item"><a href="#">Advertise on Yelp</a></li>
+            <li class="footer-list-item"><a href="#">Online Ordering from Eat24</a></li>
+            <li class="footer-list-item"><a href="#">Yelp Reservations</a></li>
+            <li class="footer-list-item"><a href="#">Business Support</a></li>
+            <li class="footer-list-item"><a href="#">Yelp Blog for Business Owners</a></li>
+          </ul>
+        </div>
+        <div class="main-footer__col region">
+          <h2 class="main-footer__heading">Languages</h2>
+          <ul class="languages-list">
+            <li class="languages-list__item title">
+              English
+              <ul class="languages-sublist">
+                <li class="languages-sublist__item">Russian (Russia)</li>
+                <li class="languages-sublist__item">Suomi (Finland)</li>
+                <li class="languages-sublist__item">Polski (Poland)</li>
+                <li class="languages-sublist__item">italiano (Italia)</li>
+                <li class="languages-sublist__item">Spanish (Spain)</li>
+              </ul>
+            </li>
+          </ul>
+          <h2 class="region-title">Countries</h2>
+          <ul class="countries-list">
+            <li class="countries-list__item title">
+              United States
+              <ul class="countries-sublist">
+                <li class="countries-sublist__item">Russia</li>
+                <li class="countries-sublist__item">Findland</li>
+                <li class="countries-sublist__item">Poland</li>
+                <li class="countries-sublist__item">Italia</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <small class="copyright">
+        <div class="copyright__text">
+          Copyright © 2004-2024 Yelp Inc. 
+          Yelp and related marks are 
+          registered trademarks of Yelp.
+        </div>
+      </small>
+    </footer>
+  </body>
+</html>
